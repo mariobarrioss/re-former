@@ -1,24 +1,82 @@
-# README
+# Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Building forms using Ruby on Rails
 
-Things you may want to cover:
+![screenshot](./Project-screenshot.png)
 
-* Ruby version
+The purpose of this project is to implement multiple ways to build a form in rails that can send parameters to a controller so that it can build an instance of a model with those parameters. 
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby,
+- Ruby on Rails 6,
+- Minitest
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+Please have Ruby on Rails 6.0.2 installed on your local system.
 
-* Deployment instructions
+Clone the repository
 
-* ...
+```bash
+$ git clone https://www.github.com/mariobarrioss/re-former.git .
+```
+### Setup & Installation
+
+Run the following command within the folder where the repository is stored on your local machine.
+
+```bash
+$ bundle install --without-production
+```
+
+### Usage
+
+To run the project on your local machine, enter the following command in the folder where the repo is stored.
+
+```bash
+$ rails server -b 0.0.0.0
+```
+
+### Run tests
+
+Run the tests in the ```tests``` folder with the following command.
+
+```bash
+$ rails test
+``` 
+
+### Deployment
+
+There are no deployment instructions for this project as of now, will add them later.
+
+## Authors
+
+👤 **Rohan Sundar**
+
+- Github: [@rsundar](https://github.com/rsundar)
+- Twitter: [@skelegrow](https://twitter.com/)
+- Linkedin: [linkedin](https://linkedin.com/)
+
+👤 **Mario Barrios**
+
+- Github: [@mariobarrioss](https://github.com/mariobarrioss)
+- Twitter: [@twitterhandle](https://twitter.com/)
+- Linkedin: [linkedin](https://linkedin.com/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://www.github.com/rsundar/micro-reddit/tree/master/LICENSE) licensed.
