@@ -50,6 +50,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run tests
 
+> To run the tests for this project run the following command in your command line.
+
+```bash
+  $ rails test
+```
+
 ### Deployment
 
 
