@@ -31,7 +31,14 @@ To get a local copy up and running follow these simple example steps.
 ```bash
   $ git clone https://www.github.com/mariobarrioss/re-former.git
 ```
+
 ### Install
+
+> Run the following command to install the required gems on your local machine.
+
+```bash
+  $ bundle install --without production
+```
 
 ### Usage
 
