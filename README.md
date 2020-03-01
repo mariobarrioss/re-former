@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Rohan Sundar**
 
 - Github: [@rsundar](https://github.com/rsundar)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@skelegrow](https://twitter.com/)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 👤 **Mario Barioss**
