@@ -8,7 +8,7 @@ The purpose of this project is to give us a chance to actually build some forms,
 
 ## Built With
 
-- Ruby,
+- Ruby 2.6.0,
 - Rails 6.2,
 
 ## Live Demo
@@ -18,16 +18,19 @@ The purpose of this project is to give us a chance to actually build some forms,
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+> You need to have rails 6.0.2 installed on your local system, also you would need ruby 2.6.0 and git installed. 
+
 ### Setup
 
+> Run the following command in your terminal to get a local copy of the repo on your local machine.
+
+```bash
+  $ git clone https://www.github.com/mariobarrioss/re-former.git
+```
 ### Install
 
 ### Usage
