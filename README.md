@@ -42,6 +42,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
+> Run the rails server to view on your browser.
+
+```bash
+  $ rails server -b 0.0.0.0
+```
+
 ### Run tests
 
 ### Deployment
