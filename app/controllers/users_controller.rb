@@ -3,6 +3,20 @@ class UsersController < ApplicationController
         @user = User.new
     end
 
+    def edit
+        @user = User.find_by(params[:id])
+    end
+    
+    def update
+        @user = User.find_by(params[:id])
+        if @user.save
+            @user.Update(user_params)
+            redirect_to new_users_path
+        else
+            render :edit
+        end
+    end
+
     def create
         @user = User.new(users_params)
         if @user.save
