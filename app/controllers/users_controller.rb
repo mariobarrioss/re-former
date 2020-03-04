@@ -6,7 +6,7 @@ class UsersController < ApplicationController
     def create
         @user = User.new(users_params)
         if @user.save
-            redirect_to users_path
+            redirect_to new_users_path
         else
             render :new
         end
