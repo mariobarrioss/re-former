@@ -13,8 +13,18 @@
         <input name="user[password]" type="password" />
         <input class="btn" name="commit" type="submit" value="Create My Account" />
     </form>-->
-
-    <%= form_with(model: @user,local: true) do |f|%>
+    
+    <%= form_tag("/users", method: "post") %>
+        <%= label_tag(:username, "Username:") %>
+        <%= text_field_tag(:username) %>
+        <%= label_tag(:email, "Email:") %>
+        <%= text_field_tag(:email) %>
+        <%= lable_tag(:password, "Password:") %>
+        <%= password_field_tag(:password) %>
+        <%= submit_tag("Submit") %>
+    <% end %>
+    
+    <!--<%= form_with(model: @user,local: true) do |f|%>
         <%= f.label :username %>
         <%= f.text_field :username %>
         <%= f.label :email %>
@@ -22,5 +32,5 @@
         <%= f.label :password %>
         <%= f.password_field :password %>
         <%= f.submit "Create My Account", class:"btn" %>
-    <% end %>
+    <% end %>-->
 </html>
