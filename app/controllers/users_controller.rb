@@ -19,8 +19,8 @@ class UsersController < ApplicationController
 
     def create
         #Manual form entry
-        @user = User.new(:username => params[:username], :email => params[:email], :password => params[:password])
-        #@user = User.new(users_params)
+        #@user = User.new(:username => params[:username], :email => params[:email], :password => params[:password])
+        @user = User.new(users_params)
         if @user.save
             redirect_to new_user_path
         else
