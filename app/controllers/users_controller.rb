@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+    before_action :current_user, only: %i[edit update]
+    
     def new
         @user = User.new
     end
@@ -32,7 +34,7 @@ class UsersController < ApplicationController
         def current_user
             @user = User.find_by(params[:id])
         end
-        
+
         def users_params
             params.require(:user).permit(:username, :email, :password)
         end
