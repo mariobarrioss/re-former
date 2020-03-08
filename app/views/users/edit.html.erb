@@ -1,0 +1,8 @@
+<h1>Update info</h1>
+
+    <%= form_for @user do |f| %>
+        Username: <%= f.text_field :username, placeholder: "Your user name here" %><br />
+        Email: <%= f.text_field :email, placeholder: "example@example.com" %><br />
+        Password: <%= f.password_field :password, placeholder: "Your password here" %><br />
+        <%= f.submit "Create My Account", class:"btn" %>
+    <% end %>
